@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /HSDBSetup.exe
+Disallow: /DayBookSetup.exe
+Disallow: /images/
+Disallow: /super_secret_discount.html
