@@ -61,60 +61,11 @@
 
     <div class="row">
         <div id="mainbody" class="span8 offset2">
-            <?php
-        // if $discount_desc, there was no $discount_err.
-        if ($discount_desc) {
-            echo "<p><strong>" . $discount_desc . "</strong></p>";
-            echo "<p><strong>Discounted price:</strong> Buying Homeschool Day Book for permanent use is <strong>$29</strong>.</p>";
-            echo '
-            <br>
-            <div class="centerize">
-                <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
-                    <input type="hidden" name="cmd" value="_s-xclick">
-                    <input type="hidden" name="hosted_button_id" value="3425842">
-                    <input type="image" src="https://www.paypal.com/en_US/i/btn/btn_paynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-                    <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
-                </form>
-            </div>
-            ';
-            //either $discount_err, or more likely, no discount code was entered at all.
-        } else {
-            echo "<p>Buying Homeschool Day Book for permanent use is only <strong>$39</strong>.</p>";
-            echo '
-            <br>
-            <div class="centerize">
-                <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
-                    <input type="hidden" name="cmd" value="_s-xclick">
-                    <input type="hidden" name="hosted_button_id" value="3426006">
-                    <input type="image" src="https://www.paypal.com/en_US/i/btn/btn_paynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-                    <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
-                </form>
-            </div>
-            ';
-        }
-            ?>
-
-            <p>To purchase, just click on the "Pay Now" button above.</p>
-
-            <p>Within 24 hours after your purchase, you will receive an email with a license key to unlock your software.
-                Enter the license key using the "Get Licensed" button in the lower left corner of Homeschool Day Book.</p>
-
-            <form action="/purchase.php" method="post">
-                <?php
-        if ($discount_err) {
-            echo "<p><strong>" . $discount_err . "</strong></p>";
-        }
-                ?>
-                <p>If you have a discount or promotion code, enter it now: <input type="text" id="discount_code" name="discount_code" size="12" maxlength="20" />&nbsp;<input type="submit" value="Go"></p>
-            </form>
-
-            <p>(If you haven't installed Homeschool Day Book yet, download and install the trial version,
-                either now or after purchasing your license.  Entering your license key will automatically convert
-                the trial to your own permanent copy of the software.)</p>
-
-            <p class="centerize">
-                <a href="javascript:void(0)" onclick="window.open('pop_how_pay_now_works.html','pop_how_pay_now_works','scrollbars=no,resizeable=no,statusbar=no,width=600,height=425')">(How does the Pay Now button work?)</a>
-            </p>
+        
+            <p><strong>2021 Update: I am in the process of making Homeschool Day Book available for free.</strong>.</p>
+            <p><strong>This will require some changes to the program, and it might take me a little while to complete these.</strong>.</p>
+            <p><strong>If you're stuck because you've started with the demo and you are running out of uses,
+                email me and I'll give you a free license for the old paid-for version.</strong>.</p>
 
             <p>Homeschool Day Book runs on Windows XP up through Windows 10.</p>
 
