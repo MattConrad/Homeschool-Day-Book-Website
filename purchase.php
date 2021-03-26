@@ -62,10 +62,9 @@
     <div class="row">
         <div id="mainbody" class="span8 offset2">
         
-            <p><strong>2021 Update: I am in the process of making Homeschool Day Book available for free.</strong>.</p>
-            <p><strong>This will require some changes to the program, and it might take me a little while to complete these.</strong>.</p>
-            <p><strong>If you're stuck because you've started with the demo and you are running out of uses,
-                email me and I'll give you a free license for the old paid-for version.</strong>.</p>
+            <h2>Update: Homeschool Day Book is now entirely free for personal use, and doesn't require purchasing.</h2>
+            <p><strong>You don't actually need to "Buy Now" any more. The version you can download from the Free Trial page is the fully featured version of the software with no restrictions.</strong></p>
+            <p><strong>Thanks to all of you who have used Homeschool Day Book over the years.</strong>.</p>
 
             <p>Homeschool Day Book runs on Windows XP up through Windows 10.</p>
 
